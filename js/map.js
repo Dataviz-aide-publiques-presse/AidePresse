@@ -1,7 +1,7 @@
 
 var promises = [];
-promises.push(d3.json('map.json'));
-promises.push(d3.csv("data.csv"));
+promises.push(d3.json('main/map.json'));
+promises.push(d3.csv("main/data.csv"));
 
 Promise.all(promises).then(function(values) {
     const geojson = values[0];
