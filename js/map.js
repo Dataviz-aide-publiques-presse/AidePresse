@@ -1,7 +1,7 @@
 
 var promises = [];
-promises.push(d3.json('main/map.json'));
-promises.push(d3.csv("main/data.csv"));
+promises.push(d3.json('https://raw.githubusercontent.com/FrankFacundo/JournalismeDatavis/main/map.json'));
+promises.push(d3.csv("https://raw.githubusercontent.com/FrankFacundo/JournalismeDatavis/main/data.csv"));
 
 Promise.all(promises).then(function(values) {
     const geojson = values[0];
