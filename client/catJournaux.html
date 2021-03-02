@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>
+
+<script type="text/javascript">
+    var promises = [];
+    promises.push(d3.json("AidesSujet.json"));
+
+    Promise.all(promises).then(function(values) {
+        const csv = values[0];
+        //console.log(csv[0,csv.length])
+        console.log(csv.data)
+        //console.log(csv[0,6].TypeMedia)
+        /*
+        csv.forEach(function(e,i){
+            if (e.TypeMedia2 != ""){
+                console.log(e.TypeMedia2)
+            } 
+        });
+        console.log("########")
+        csv.forEach(function(e,i){
+            console.log(e.TypeMedia)
+        });
+        */
+        //console.log(csv.columns)
+
+        /*
+        var media = csv.map(function(d) { return d.TypeMedia });
+        var media2 = csv.map(function(d) { return d.TypeMedia2 });
+
+        console.log(media)
+        console.log(media2)
+        */
+        // To create treemap
+    });
+</script>
