@@ -42,24 +42,28 @@ Promise.all(promises).then(function(values) {
 
     var quantile = d3.scaleQuantile()
         .domain([0, d3.max(csv, function(e) { return +e.AIDES; })])
-        .range(colors);
+        //.range(colors);
+        .range([0, 9 * 20]);
 
     var legend = svg.append('g')
         .attr('transform', 'translate(725, 150)')
         .attr('id', 'legend');
         
         legend.selectAll()
-            .data(d3.range(colors.length))
+            //.data(d3.range(colors.length))
+            .data(d3.range(9))
             .enter().append('svg:rect')
                 .attr('height', '20px')
                 .attr('width', '20px')
                 .attr('x', 5)
                 .attr('y', function(d) { return d * 20; })
-                .style("fill", function(d) { return colors[d]; });
+                .attr("class", d => "q" + d + "-9");
+                //.style("fill", function(d) { return colors[d]; });
                 
     var legendScale = d3.scaleLinear()
         .domain([0, d3.max(csv, function(e) { return +e.AIDES; })])
-        .range([0, colors.length * 20]);
+        //.range([0, colors.length * 20]);
+        .range([0, 9 * 20]);
             
     var legendAxis = svg.append("g")
         .attr('transform', 'translate(750, 150)')
