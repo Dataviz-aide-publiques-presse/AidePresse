@@ -11,8 +11,10 @@ Promise.all(promises).then(function(values) {
 
     const width = 850, 
     height = 800,
-    colors = ['#d4eac7', '#c6e3b5', '#b7dda2', '#a9d68f', '#9bcf7d', '#8cc86a', '#7ec157', '#77be4e', '#70ba45', '#65a83e', '#599537', '#4e8230', '#437029', '#385d22', '#2d4a1c', '#223815'];
-
+    //colors = ['#d4eac7', '#c6e3b5', '#b7dda2', '#a9d68f', '#9bcf7d', '#8cc86a', '#7ec157', '#77be4e', '#70ba45', '#65a83e', '#599537', '#4e8230', '#437029', '#385d22', '#2d4a1c', '#223815'];
+    colors = d3.scaleLinear().domain([1,16])
+        .range(["white", "blue"])
+    
     const path = d3.geoPath();
 
     const projection = d3.geoMercator()
