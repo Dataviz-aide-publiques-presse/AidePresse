@@ -11,7 +11,8 @@ Promise.all(promises).then(function(values) {
 
     const width = 850, 
     height = 800,
-    colors = ['#d4eac7', '#c6e3b5', '#b7dda2', '#a9d68f', '#9bcf7d', '#8cc86a', '#7ec157', '#77be4e', '#70ba45', '#65a83e', '#599537', '#4e8230', '#437029', '#385d22', '#2d4a1c', '#223815'];
+    //colors = ['#d4eac7', '#c6e3b5', '#b7dda2', '#a9d68f', '#9bcf7d', '#8cc86a', '#7ec157', '#77be4e', '#70ba45', '#65a83e', '#599537', '#4e8230', '#437029', '#385d22', '#2d4a1c', '#223815'];
+    colors = ['#EBF4FA', '#C2DFFF', '#82CAFA', '#3BB9FF', '#56A5EC', '#6495ED', '#1589FF', '#157DEC', '#306EFF', '#2B65EC', '#1F45FC', '#0020C2', '#0000A0', '#151B8D', '#000080', '#151B54'];
     //colors = d3.scaleLinear().domain([1,16]).range(["white", "blue"])
     
     const path = d3.geoPath();
