@@ -28,7 +28,8 @@
 }
 
 .hero-1-text {
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: Roboto, sans-serif;
   color: #446beb;
   font-size: 14px;
@@ -39,8 +40,9 @@
 .heading-1 {
   font-family: Roboto, sans-serif;
   color: #292929;
-  font-size: 49px;
+  font-size: 70px;
   font-weight: 700;
+  text-align: center
 }
 
 .link-wrap {
@@ -96,13 +98,14 @@
 }
 
 .paragraph {
-  max-width: 80%;
+  max-width: 100%;
   margin-top: 25px;
   font-family: 'Circularstd book webfont', sans-serif;
   color: #9aa8be;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  text-align: center
 }
 
 .left-nav {
@@ -175,9 +178,10 @@
   margin-bottom: 20px;
   font-family: 'Circularstd book webfont', sans-serif;
   color: #0b072a;
-  font-size: 57px;
+  font-size: 50px;
   line-height: 67px;
   font-weight: 600;
+  text-align: center
 }
 
 .header-1 {
