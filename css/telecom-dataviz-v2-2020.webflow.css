@@ -103,10 +103,10 @@
   margin-top: 25px;
   font-family: 'Circularstd book webfont', sans-serif;
   color: #9aa8be;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 24px;
   font-weight: 400;
-  text-align: center
+  text-align: center;
 }
 
 .left-nav {
@@ -182,7 +182,7 @@
   font-size: 50px;
   line-height: 67px;
   font-weight: 600;
-  text-align: center
+  text-align: center;
 }
 
 .header-1 {
@@ -584,7 +584,13 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f8fd), to(#f6f8fd));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f6f8fd),
+    to(#f6f8fd)
+  );
   background-image: linear-gradient(180deg, #f6f8fd, #f6f8fd);
 }
 
@@ -818,8 +824,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/undraw_organize_resume_utk5-1.svg'), -webkit-gradient(linear, left top, left bottom, from(#f6f8fd), to(#f6f8fd));
-  background-image: url('../images/undraw_organize_resume_utk5-1.svg'), linear-gradient(180deg, #f6f8fd, #f6f8fd);
+  background-image: url('../images/undraw_organize_resume_utk5-1.svg'),
+    -webkit-gradient(linear, left top, left bottom, from(#f6f8fd), to(#f6f8fd));
+  background-image: url('../images/undraw_organize_resume_utk5-1.svg'),
+    linear-gradient(180deg, #f6f8fd, #f6f8fd);
   background-position: 100% 100%, 0px 0px;
   background-size: 480px, auto;
   background-repeat: no-repeat, repeat;
@@ -2732,7 +2740,13 @@
   border-top-width: 3px;
   border-top-color: #fffdfd;
   background-color: #f8faff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#232931), to(#232931));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#232931),
+    to(#232931)
+  );
   background-image: linear-gradient(180deg, #232931, #232931);
 }
 
@@ -2766,8 +2780,20 @@
 .success-message-2 {
   padding: 45px 61px;
   border-radius: 8px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.6)), to(hsla(0, 0%, 100%, 0.6))), url('../images/pattern.svg');
-  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.6)), url('../images/pattern.svg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(hsla(0, 0%, 100%, 0.6)),
+      to(hsla(0, 0%, 100%, 0.6))
+    ),
+    url('../images/pattern.svg');
+  background-image: linear-gradient(
+      180deg,
+      hsla(0, 0%, 100%, 0.6),
+      hsla(0, 0%, 100%, 0.6)
+    ),
+    url('../images/pattern.svg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -3097,8 +3123,10 @@
     min-height: 70vh;
     padding-right: 25px;
     padding-left: 25px;
-    background-image: url('../images/undraw_organize_resume_utk5-1.svg'), -webkit-gradient(linear, left top, left bottom, from(#c2d2f9), to(#c2d2f9));
-    background-image: url('../images/undraw_organize_resume_utk5-1.svg'), linear-gradient(180deg, #c2d2f9, #c2d2f9);
+    background-image: url('../images/undraw_organize_resume_utk5-1.svg'),
+      -webkit-gradient(linear, left top, left bottom, from(#c2d2f9), to(#c2d2f9));
+    background-image: url('../images/undraw_organize_resume_utk5-1.svg'),
+      linear-gradient(180deg, #c2d2f9, #c2d2f9);
     background-position: 100% 100%, 0px 0px;
     background-size: 300px, auto;
     background-repeat: no-repeat, repeat;
@@ -3540,7 +3568,13 @@
   }
 
   .header-4 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#c2d2f9), to(#c2d2f9));
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#c2d2f9),
+      to(#c2d2f9)
+    );
     background-image: linear-gradient(180deg, #c2d2f9, #c2d2f9);
     background-position: 0px 0px;
     background-size: auto;
